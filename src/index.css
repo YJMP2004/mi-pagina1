@@ -1,0 +1,122 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFF5E1; /* Beige suave, cálido, muy claro */
+  color: #413f3f; /* Gris oscuro neutro para texto */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: #fccab4;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+
+nav button {
+    background-color: #f9a3a4;
+    color: rgb(211, 30, 30);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #f77b8a;
+}
+
+section {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #ffe5dc;
+    border-radius: 12px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(131, 6, 49, 0.4);
+}
+
+.modal-contenido {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.cerrar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cerrar:hover {
+    color: #dd1818;
+}
+
+.oculto {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+   
+
+/* Estilos personalizados para botones de la sección central */
+.btn-ver-mensaje {
+  background-color: #7ba7f3; /* Rosado claro */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-ver-mensaje:hover {
+  background-color: #f77b8a; /* Más oscuro al pasar el mouse */
+}
+
+.btn-cambiar-titulo {
+  background-color: #7ba7f3; /* Azul suave */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cambiar-titulo:hover {
+  background-color: #7295f6;
+}
+
+.btn-mostrar-mensaje {
+  background-color: #7ba7f3; /* Azul suave */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-mostrar-mensaje:hover {
+  background-color: #8ce99a;
+}

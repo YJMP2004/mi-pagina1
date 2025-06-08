@@ -1,0 +1,37 @@
+.modal-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-caja {
+  background: #ffe6f0;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 10px #00000044;
+}
+
+.cerrar {
+  float: right;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.btn-modal {
+  background: #7ba7f3;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}

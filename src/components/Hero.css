@@ -1,0 +1,8 @@
+/* src/components/Hero.css */
+.hero-section {
+  background: linear-gradient(to right, #FFE5B4, #FADADD, #E6E6FA);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
