@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #fccab4;
+    background-color: #ffc3a9;
     padding: 1rem;
     text-align: center;
     
@@ -80,7 +80,7 @@ section {
 
 /* Estilos personalizados para botones de la sección central */
 .btn-ver-mensaje {
-  background-color: #7ba7f3; /* Rosado claro */
+  background-color: #4984eb; /* Rosado claro */
   color: white;
   border: none;
   border-radius: 8px;
@@ -94,7 +94,7 @@ section {
 }
 
 .btn-cambiar-titulo {
-  background-color: #7ba7f3; /* Azul suave */
+  background-color: #4984eb; /* Azul suave */
   color: white;
   border: none;
   border-radius: 8px;
@@ -108,7 +108,7 @@ section {
 }
 
 .btn-mostrar-mensaje {
-  background-color: #7ba7f3; /* Azul suave */
+  background-color: #4984eb; /* Azul suave */
   color: white;
   border: none;
   border-radius: 8px;

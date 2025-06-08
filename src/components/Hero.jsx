@@ -26,8 +26,8 @@ const Hero = () => {
 
           {/* Texto y botones */}
           <div className="col-md-8 text-center text-md-start">
-            <h1 className="display-4">¡Bienvenido a mi página web!</h1>
-            <p className="lead">
+            <h1 className="text-warning">¡Bienvenido a mi página web!</h1>
+            <p style={{ color: '#FFC107' }}>
               Este es un sitio personal hecho con React y Bootstrap.
             </p>
             <div className="mt-4">

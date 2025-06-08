@@ -6,7 +6,7 @@ export default function MyModal({ titulo = "Bienvenida", contenido = "Gracias po
 
   return (
     <>
-      <button className="btn-modal" onClick={() => setVisible(true)}>Mostrar Modal</button>
+      <button className="btn-modal" onClick={() => setVisible(true)}>🎯 Mostrar Modal</button>
       {visible && (
         <div className="modal-fondo" onClick={() => setVisible(false)}>
           <div className="modal-caja" onClick={(e) => e.stopPropagation()}>
